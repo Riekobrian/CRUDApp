@@ -1,0 +1,18 @@
+.task-card {
+  transition: transform 0.2s;
+}
+
+.task-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.priority-high {
+  border-left: 4px solid #dc3545;
+}
+.priority-medium {
+  border-left: 4px solid #ffc107;
+}
+.priority-low {
+  border-left: 4px solid #28a745;
+}
